@@ -21,6 +21,7 @@ FENETRE::FENETRE():QWidget()
 
 
 }
+/*la fonction btnclick c'est une fonction qui permet de cherché un fichier texte et faire le traitement*/
 void  FENETRE::btnClick(){
 
     QString fichier = QFileDialog::getOpenFileName(this, "Ouvrir un fichier", QString());
@@ -50,6 +51,7 @@ void  FENETRE::btnClick(){
 
 
 }
+/*cette fonction permet de crée des widgets bouton et zone de texte et les placé dans la fenetre */
 void FENETRE::INIT()
 {
     bouton = new QPushButton("start", this);
