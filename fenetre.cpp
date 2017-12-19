@@ -5,9 +5,9 @@
 #include <QTextEdit>
 #include <QFile>
 #include <QString>
-QString affich;
+
 QString tempG;
-QString texte;
+
 
 FENETRE::FENETRE():QWidget()
 {
